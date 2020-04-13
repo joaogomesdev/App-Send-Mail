@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -21,6 +26,16 @@
       			<div class="col-md-12">
   				
 					<div class="card-body font-weight-bold">
+					<?php if( isset($_GET['teste']) && isset($_GET['teste']) == 'erro' ) : ?>
+
+      
+						<div class="alert alert-danger" role="alert">
+
+	 						Preencha o formulário para poder enviar o E-Mail
+
+						</div>
+
+					<?php endif ?>
 						<form action="processa_envio.php" method="post">
 							<div class="form-group">
 								<label for="para">Para</label>
@@ -37,7 +52,7 @@
 								<textarea name="mensagem" class="form-control" id="mensagem"></textarea>
 							</div>
 
-							<button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+							<button type="submit" class="btn btn-success btn-lg text-white btn-block">Enviar Mensagem</button>
 						</form>
 					</div>
 				</div>
