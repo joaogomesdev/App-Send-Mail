@@ -21,7 +21,7 @@
 
 ### Clone
 
-- Clone this repo to your local machine using <git clone `https://github.com/JoaoGomes5/ERecolha-NLW-RocketSeat`>
+- Clone this repo to your local machine using <git clone `https://github.com/JoaoGomes5/App-Send-Mail`>
 
 ## Support
 
