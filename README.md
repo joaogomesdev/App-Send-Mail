@@ -1,6 +1,6 @@
 <img src="logo.png" title="Image" alt="ProjectImage" width="150"  height="150" >
 
-# App Help Desk
+# App Send Mail
 
 > A simple application where we can send emails
 
